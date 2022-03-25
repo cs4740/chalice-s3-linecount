@@ -1,23 +1,5 @@
 {
-  "resources": [
-    {
-      "name": "default-role",
-      "resource_type": "iam_role",
-      "role_arn": "arn:aws:iam::440848399208:role/s3-linecount-dev",
-      "role_name": "s3-linecount-dev"
-    },
-    {
-      "name": "s3_handler",
-      "resource_type": "lambda_function",
-      "lambda_arn": "arn:aws:lambda:us-east-1:440848399208:function:s3-linecount-dev-s3_handler"
-    },
-    {
-      "name": "s3_handler-s3event",
-      "resource_type": "s3_event",
-      "bucket": "s3-linecount",
-      "lambda_arn": "arn:aws:lambda:us-east-1:440848399208:function:s3-linecount-dev-s3_handler"
-    }
-  ],
+  "resources": [],
   "schema_version": "2.0",
   "backend": "api"
 }
